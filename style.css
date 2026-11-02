@@ -1,0 +1,25 @@
+body{margin:8px;background:#fff;font-family:"Times New Roman",Times,serif;font-size:16px;color:#000}
+a{color:#00e}a:visited{color:#551a8b}
+.out{max-width:760px;margin:0 auto}
+.tt{font:bold 26px "Times New Roman",serif;color:#800000}
+.st{font:italic 15px "Times New Roman";color:#333}
+hr{border:0;border-top:2px groove #ccc;margin:8px 0}
+.bar{background:#000080;color:#fff;font:bold 13px Arial,sans-serif;padding:3px 6px}
+.bar a{color:#ff0}
+.gb{display:inline-block;font:bold 12px Arial,sans-serif;color:#000;text-decoration:none;background:#c0c0c0;border:2px outset #eee;padding:2px 8px;margin:1px}
+.run{overflow:hidden;white-space:nowrap;background:#ffffe0;border:1px solid #cc9;font:13px Arial;color:#a00;padding:2px 0}
+.run span{display:inline-block;padding-left:100%;animation:run 22s linear infinite}
+@keyframes run{to{transform:translateX(-100%)}}
+@media (prefers-reduced-motion:reduce){.run span{animation:none;padding-left:4px}}
+table.t{border-collapse:separate;max-width:100%}
+table.t td,table.t th{border:1px solid #808080;padding:4px;vertical-align:top}
+table.t th{background:#c0c0c0;font-family:Arial;font-size:13px}
+.small{font-size:13px}
+.ft{font:12px Arial;color:#555;text-align:center;margin-top:12px}
+.cnt{display:inline-block;background:#000;color:#0f0;font:bold 13px "Courier New",monospace;padding:1px 4px;border:2px inset #888;letter-spacing:2px}
+.new{color:#f00;font:bold 11px Arial;animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{visibility:hidden}}
+@media (prefers-reduced-motion:reduce){.new{animation:none}}
+.uc{font:bold 13px Arial;color:#c60}
+img.lg{float:left;margin:0 12px 4px 0}
+@media (max-width:600px){body{font-size:17px}.tt{font-size:21px}img.lg{width:60px;height:60px}}
